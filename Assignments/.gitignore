@@ -4,3 +4,44 @@ build/
 .env
 *.log
 doNotSend/
+skimage-env/
+*.pyc
+
+# Data files
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.feather
+
+# Model files
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and outputs
+logs/
+results/
+output/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
